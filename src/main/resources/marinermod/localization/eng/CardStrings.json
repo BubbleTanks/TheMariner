@@ -1,0 +1,364 @@
+{
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Wavebreaker": {
+    "NAME": "Wavebreaker",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Sunken, deal !${modID}:damage2! damage to ALL enemies."
+  },
+  "${modID}:Shipshape": {
+    "NAME": "Shipshape",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Lethal, ${modID}:Submerge !M!."
+  },
+  "${modID}:DragToHell": {
+    "NAME": "Drag To Hell",
+    "DESCRIPTION": "${modID}:Submerge 99. NL Exhaust."
+  },
+  "${modID}:Typhoon": {
+    "NAME": "Typhoon",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies X times. NL If ${modID}:Lethal, ${modID}:Submerge 2."
+  },
+  "${modID}:SeaMines": {
+    "NAME": "Sea Mines",
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. NL If ${modID}:Sunken, add a copy of this card into your discard pile. NL ${modID}:Trawl."
+  },
+  "${modID}:ReefShield": {
+    "NAME": "Reef Shield",
+    "DESCRIPTION": "Gain !B! Block. NL ${modID}:Abyssal - Gain !B! Block."
+  },
+  "${modID}:SeafloorStrike": {
+    "NAME": "Seafloor Strike",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Dredge !M!."
+  },
+  "${modID}:Barnacles": {
+    "NAME": "Barnacles!",
+    "DESCRIPTION": "Summon 1 ${modID}:Barnacle. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Summon 1 ${modID}:Barnacle."
+  },
+  "${modID}:CrushDepth": {
+    "NAME": "Crush Depth",
+    "DESCRIPTION": "Shuffle a copy of this into your draw pile. NL ${modID}:Abyssal - Deal !M! damage to ALL enemies. NL ${modID}:Trawl. NL ${modID}:Ballast."
+  },
+  "${modID}:GreatBarrierReef": {
+    "NAME": "Great Barrier Reef",
+    "DESCRIPTION": "Gain !B! Block. NL Add ${modID}:Ballast to all the \"Reef\" cards in your discard pile."
+  },
+  "${modID}:DyingReef": {
+    "NAME": "Dying Reef",
+    "DESCRIPTION": "Gain !B! Block. NL ${modID}:Abyssal - Summon 1 ${modID}:Barnacle."
+  },
+  "${modID}:Overpopulation": {
+    "NAME": "Overpopulation",
+    "DESCRIPTION": "Summon 5 ${modID}:Barnacles. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Summon 5 ${modID}:Barnacles. NL Exhaust."
+  },
+  "${modID}:BarnacleBloom": {
+    "NAME": "Barnacle Bloom",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Lethal, summon 2 ${modID}:Barnacles."
+  },
+  "${modID}:ReefWalk": {
+    "NAME": "Reef Walk",
+    "DESCRIPTION": "Gain !B! Block. NL ${modID}:Submerge !M!."
+  },
+  "${modID}:AnchorsAweigh": {
+    "NAME": "Anchors Aweigh!",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Submerge !M!."
+  },
+  "${modID}:Reverberation": {
+    "NAME": "Reverberation",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. NL ${modID}:Ballast."
+  },
+  "${modID}:LeadBoots": {
+    "NAME": "Lead Boots",
+    "DESCRIPTION": "At the start of your turn, ${modID}:Submerge !M!."
+  },
+  "${modID}:HighTide": {
+    "NAME": "High Tide",
+    "DESCRIPTION": "Draw !M!. NL ${modID}:Dredge !${modID}:magic2!"
+  },
+  "${modID}:Calcify": {
+    "NAME": "Calcify",
+    "DESCRIPTION": "Summon 2 ${modID}:Barnacles. NL If ${modID}:Sunken, summon 1 ${modID}:Barnacle.",
+    "UPGRADE_DESCRIPTION": "Summon 2 ${modID}:Barnacles and draw 1 card. NL If ${modID}:Sunken, summon 1 ${modID}:Barnacle."
+  },
+  "${modID}:TidePool": {
+    "NAME": "Tide Pool",
+    "DESCRIPTION": "Gain !B! Block. NL If ${modID}:Sunken, NL gain !${modID}:block2! Block. NL ${modID}:Abyssal - Gain !${modID}:block2! Block."
+  },
+  "${modID}:GlowingTrident": {
+    "NAME": "Glowing Trident",
+    "DESCRIPTION": "Deal !D! damage. If ${modID}:Sunken, costs 1 less [E] this combat."
+  },
+  "${modID}:GlimmeringReef": {
+    "NAME": "Glimmering Reef",
+    "DESCRIPTION": "Draw !M! cards. ${modID}:Submerge !${modID}:magic2!. NL ${modID}:Abyssal - Draw !${modID}:magic3! cards."
+  },
+  "${modID}:Drowning": {
+    "NAME": "Drowning",
+    "DESCRIPTION": "${modID}:Sunken effects are triggered !M! additional time.",
+    "UPGRADE_DESCRIPTION": "${modID}:Sunken effects are triggered !M! additional times."
+  },
+  "${modID}:RemoraSlash": {
+    "NAME": "Remora Slash",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL ${modID}:Abyssal - Add this card to your hand."
+  },
+  "${modID}:AnchorShot": {
+    "NAME": "Anchor Shot",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Trawl."
+  },
+  "${modID}:Harvester": {
+    "NAME": "Harvester",
+    "DESCRIPTION": "Deal !D! damage. NL Deals double damage if it would kill."
+  },
+  "${modID}:Infestation": {
+    "NAME": "Infestation",
+    "DESCRIPTION": "If ${modID}:Sunken, summon 1 ${modID}:Barnacle and put a copy of this on top of your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "If ${modID}:Sunken, summon 2 ${modID}:Barnacles and put a copy of this on top of your draw pile. NL Exhaust."
+  },
+  "${modID}:KelpWall": {
+    "NAME": "Kelp Wall",
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, summon 1 ${modID}:Barnacle."
+  },
+  "${modID}:Hardening": {
+    "NAME": "Hardening",
+    "DESCRIPTION": "Whenever an enemy dies, gain !M! Strength."
+  },
+  "${modID}:Moonpool": {
+    "NAME": "Moonpool",
+    "DESCRIPTION": "Unplayable. NL ${modID}:Ballast. NL ${modID}:Abyssal - Gain [E].",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL ${modID}:Ballast. NL ${modID}:Abyssal - Gain [E] [E].",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${modID}:Tenebris": {
+    "NAME": "Tenebris",
+    "DESCRIPTION": "Whenever you play a card, ${modID}:Submerge 1."
+  },
+  "${modID}:Blitzkrieg": {
+    "NAME": "Blitzkrieg",
+    "DESCRIPTION": "Shuffle ALL cards into your draw pile, then ${modID}:Submerge them, twice. NL Exhaust."
+  },
+  "${modID}:BermudaTriangle": {
+    "NAME": "Bermuda Triangle",
+    "DESCRIPTION": "ALL cards gain ${modID}:Abyssal - ${modID}:Submerge !M! and if ${modID}:Sunken, ${modID}:Submerge !M!."
+  },
+  "${modID}:Nautilus": {
+    "NAME": "The Nautilus",
+    "DESCRIPTION": "Ethereal. NL Whenever a ${modID}:Barnacle dies, gain [E].",
+    "UPGRADE_DESCRIPTION": "Whenever a ${modID}:Barnacle dies, gain [E]."
+  },
+  "${modID}:AnchorCrash": {
+    "NAME": "Anchor Crash",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Submerge !M!. NL If ${modID}:Sunken, NL ${modID}:Submerge !M!."
+  },
+  "${modID}:CatchAndRelease": {
+    "NAME": "Catch And Release",
+    "DESCRIPTION": "${modID}:Submerge 5. NL Draw !M! cards. NL If ${modID}:Sunken, draw !M! cards next turn."
+  },
+  "${modID}:Trout": {
+    "NAME": "Trout",
+    "DESCRIPTION": "Gain !M! Strength. NL If ${modID}:Sunken, add a copy of this card into your discard pile."
+  },
+  "${modID}:Hoist": {
+    "NAME": "Hoist",
+    "DESCRIPTION": "${modID}:Dredge !M!. NL ${modID}:Dredge !${modID}:magic2!. NL ${modID}:Dredge !${modID}:magic3!. NL Exhaust."
+  },
+  "${modID}:Doubloons": {
+    "NAME": "Doubloons",
+    "DESCRIPTION": "Gain [E]. NL If ${modID}:Sunken, gain [E] [E] next turn.",
+    "UPGRADE_DESCRIPTION": "Gain [E]. NL If ${modID}:Sunken, gain [E] [E] [E] next turn."
+  },
+  "${modID}:AquaticTopaz": {
+    "NAME": "Aquatic Topaz",
+    "DESCRIPTION": "Start each combat with this card in your discard pile. NL Gain [E]. NL Draw !M! card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Start each combat with this card in your discard pile. NL Gain [E]. NL Draw !M! cards. NL Exhaust."
+  },
+  "${modID}:ShiftingSeas": {
+    "NAME": "Shifting Seas",
+    "DESCRIPTION": "At the end of your turn, Retain up to 2 cards. NL If ${modID}:Sunken, choose 3 cards in your hand to Retain this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain"
+    ]
+  },
+  "${modID}:ReefBlade": {
+    "NAME": "Reef Blade",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! additional damage for ALL your cards with ${modID}:Abyssal."
+  },
+  "${modID}:AnchorSlam": {
+    "NAME": "Anchor Slam",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Abyssal - ${modID}:Submerge !M!."
+  },
+  "${modID}:FractalTrench": {
+    "NAME": "Fractal Trench",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL ${modID}:Abyssal - This hits !${modID}:magic2! additional times this combat."
+  },
+  "${modID}:NkuhanasRetort": {
+    "NAME": "N'kuhana's Retort",
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile. NL At the end of your turn, take an extra turn if your draw pile is empty. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Shuffle your discard pile into your draw pile. NL At the end of your turn, take an extra turn if your draw pile is empty."
+  },
+  "${modID}:BeckonedByTheDepths": {
+    "NAME": "Beckoned By The Depths",
+    "DESCRIPTION": "Ethereal. NL Cards cost 0. NL Whenever you play a card, it gains ${modID}:Ballast.",
+    "UPGRADE_DESCRIPTION": "Cards cost 0. NL Whenever you play a card, it gains ${modID}:Ballast."
+  },
+  "${modID}:Fathom": {
+    "NAME": "Fathom",
+    "DESCRIPTION": "Upgrade this card for the rest of combat. NL ${modID}:Abyssal - ${modID}:Submerge !${modID}:magic!. NL ${modID}:Trawl."
+  },
+  "${modID}:FloatingGarbage": {
+    "NAME": "Floating Garbage",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Submerge !M!. NL ${modID}:Dredge !M!. NL ${modID}:Trawl. NL If ${modID}:Lethal, shuffle a copy of this card into your draw pile. NL If ${modID}:Sunken, summon !M! ${modID}:Barnacles.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL ${modID}:Submerge !M!. NL ${modID}:Dredge !M!. NL ${modID}:Trawl. NL ${modID}:Ballast. NL If ${modID}:Lethal, shuffle a copy of this card into your draw pile. NL If ${modID}:Sunken, summon !M! ${modID}:Barnacles. NL ${modID}:Abyssal - Play this card."
+  },
+  "${modID}:BubbleBurst": {
+    "NAME": "Bubble Burst",
+    "DESCRIPTION": "${modID}:Submerge !M!."
+  },
+  "${modID}:WashedAway": {
+    "NAME": "Washed Away",
+    "DESCRIPTION": "Gain !B! Block. NL If ${modID}:Sunken, deal !D! damage to the highest HP enemy."
+  },
+  "${modID}:Ahoy": {
+    "NAME": "Ahoy!",
+    "DESCRIPTION": "${modID}:Dredge !M!. NL Add this card to the top of your draw pile. NL ${modID}:Trawl."
+  },
+  "${modID}:Crush": {
+    "NAME": "Crush",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If ${modID}:Lethal, summon 1 ${modID}:Barnacle. NL Exhaust."
+  },
+  "${modID}:Surface": {
+    "NAME": "Surface",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "${modID}:Plunge": {
+    "NAME": "Plunge",
+    "DESCRIPTION": "${modID}:Submerge !M!."
+  },
+  "${modID}:Dive": {
+    "NAME": "Dive",
+    "DESCRIPTION": "Look at the top !M! cards of your draw pile. NL Choose to draw or ${modID}:Submerge all of them."
+  },
+  "${modID}:Mariculture": {
+    "NAME": "Mariculture",
+    "DESCRIPTION": "Whenever an enemy dies, deal !M! damage to ALL enemies."
+  },
+  "${modID}:ThermalVent": {
+    "NAME": "Thermal Vent",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Sunken, permanently increase this card's damage by !M! and Exhaust."
+  },
+  "${modID}:Breathless": {
+    "NAME": "Breathless",
+    "DESCRIPTION": "${modID}:Submerge !M!. NL ${modID}:Dredge !M!."
+  },
+  "${modID}:Cripple": {
+    "NAME": "Cripple",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Lethal, do not Exhaust. NL Exhaust."
+  },
+  "${modID}:Dowse": {
+    "NAME": "Dowse",
+    "DESCRIPTION": "${modID}:Submerge !M!. NL Draw 1 card."
+  },
+  "${modID}:RippleStrike": {
+    "NAME": "Ripple Strike",
+    "DESCRIPTION": "Deal !D! damage twice. NL ${modID}:Abyssal - Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:ShelfBreak": {
+    "NAME": "Shelf Break",
+    "DESCRIPTION": "Gain !B! Block. NL ${modID}:Submerge !M!."
+  },
+  "${modID}:SorrowfulRain": {
+    "NAME": "Sorrowful Rain",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If ${modID}:Sunken, apply !M! Weak to ALL enemies."
+  },
+  "${modID}:Twilight": {
+    "NAME": "Twilight",
+    "DESCRIPTION": "Draw !M! cards. NL Apply 1 Weak. NL If ${modID}:Submerged, costs 0 this turn. NL ${modID}:Trawl."
+  },
+  "${modID}:TidalWave": {
+    "NAME": "Tidal Wave",
+    "DESCRIPTION": "Ethereal. NL ${modID}:Trawl. NL ${modID}:Abyssal - Deal !D! damage to ALL enemies."
+  },
+  "${modID}:HalyardWhip": {
+    "NAME": "Halyard Whip",
+    "DESCRIPTION": "Deal !D! damage. NL Add ${modID}:Trawl to the top !M! cards of your draw pile."
+  },
+  "${modID}:NemosMap": {
+    "NAME": "Nemo's Map",
+    "DESCRIPTION": "At the end of your turn, gain !M! Block for each enemy in combat. NL ${modID}:Ballast.",
+    "UPGRADE_DESCRIPTION": "At the end of your turn, gain 1 Block for each enemy in combat."
+  },
+  "${modID}:StarboardStrike": {
+    "NAME": "Starboard Strike",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Abyssal - Deal !${modID}:damage2! damage to a random enemy."
+  },
+  "${modID}:Maritime": {
+    "NAME": "Maritime",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL ${modID}:Ballast."
+  },
+  "${modID}:Thalassophobia": {
+    "NAME": "Thalassophobia",
+    "DESCRIPTION": "Cards in your discard pile cost 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Cards in your discard pile cost 0 this turn."
+  },
+  "${modID}:GlassBead": {
+    "NAME": "Glass Bead",
+    "DESCRIPTION": "Unplayable. NL If ${modID}:Submerged, gain [E].",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL If ${modID}:Submerged, gain [E] [E].",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${modID}:RottenCoral": {
+    "NAME": "Rotten Coral",
+    "DESCRIPTION": "Retain. NL ${modID}:Submerge !M!. NL Draw 1 card. NL Exhaust."
+  },
+  "${modID}:BleedingReef": {
+    "NAME": "Bleeding Reef",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL ${modID}:Abyssal - Gain !B! Block for ALL of your \"Reef\" cards."
+  },
+  "${modID}:LetVandZone": {
+    "NAME": "Let-Vand Zone",
+    "DESCRIPTION": "Whenever you shuffle your draw pile, add 1 *Rotten *Coral into your hand.",
+    "UPGRADE_DESCRIPTION": "Whenever you shuffle your draw pile, add 1 *Rotten *Coral+ into your hand."
+  },
+  "${modID}:TranquilWaters": {
+    "NAME": "Tranquil Waters",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Vulnerable to ALL enemies. NL ${modID}:Ballast."
+  },
+  "${modID}:WateryGraves": {
+    "NAME": "Watery Graves",
+    "DESCRIPTION": "At the end of your turn, add a random card with ${modID}:Sunken in your discard pile to your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, add a random card with ${modID}:Sunken in your discard pile to your hand."
+  },
+  "${modID}:Atlantis": {
+    "NAME": "Atlantis",
+    "DESCRIPTION": "Increase the amount of Block this gives by !M! and return this to your hand. NL If ${modID}:Sunken, gain !${modID}:block! Block."
+  },
+  "${modID}:Frostwalk": {
+    "NAME": "Frostwalk",
+    "DESCRIPTION": "Deal !D! damage. NL Add X random cards with ${modID}:Sunken from your draw pile to your hand and Retain them.",
+    "UPGRADE": "Deal !D! damage. NL Add X+1 random cards with ${modID}:Sunken from your draw pile to your hand and Retain them."
+  },
+  "${modID}:DeepestDepths": {
+    "NAME": "Deepest Depths",
+    "DESCRIPTION": "Choose a card NL in your hand. NL Add a copy of it with ${modID}:Ballast to your hand at the start of your turns.",
+    "EXTENDED_DESCRIPTION": [
+      "copy"
+    ]
+  },
+  "${modID}:RisingSurge": {
+    "NAME": "Rising Surge",
+    "DESCRIPTION": "Deal !D! damage. NL If ${modID}:Submerged, this card deals triple damage this turn."
+  },
+  "${modID}:VoyagerForm": {
+    "NAME": "Voyager Form",
+    "DESCRIPTION": "Play the first !M! cards ${modID}:Submerged each turn. "
+  }
+}

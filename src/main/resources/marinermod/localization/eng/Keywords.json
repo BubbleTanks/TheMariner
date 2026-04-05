@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "Sunken",
+    "PROPER_NAME": "Sunken",
+    "NAMES": [
+      "Sunken"
+    ],
+    "DESCRIPTION": "Triggers whenever this card is discarded at the end of your turn."
+  },{
+  "PROPER_NAME": "Lethal",
+  "NAMES": [
+    "Lethal"
+  ],
+  "DESCRIPTION": "Triggers whenever this card kills an enemy."
+},{
+  "ID": "Submerge",
+  "PROPER_NAME": "Submerge",
+  "NAMES": [
+    "Submerge",
+    "Submerged"
+  ],
+  "DESCRIPTION": "Send cards from the top of your draw pile to your discard pile."
+},{
+  "PROPER_NAME": "Trawl",
+  "NAMES": [
+    "Trawl"
+  ],
+  "DESCRIPTION": "If this card is #ySubmerged [REMOVE_SPACE], add it to your hand."
+},{
+  "PROPER_NAME": "Ballast",
+  "NAMES": [
+    "Ballast"
+  ],
+  "DESCRIPTION": "This card will not be shuffled back into the draw pile."
+},{
+  "PROPER_NAME": "Abyssal",
+  "NAMES": [
+    "Abyssal"
+  ],
+  "DESCRIPTION": "Triggers whenever the draw pile is shuffled while this is discarded."
+},{
+  "PROPER_NAME": "Dredge",
+  "NAMES": [
+    "Dredge"
+  ],
+  "DESCRIPTION": "Look at cards from the top of your discard pile. Choose one to add to your hand."
+},{
+  "ID": "Barnacle",
+  "PROPER_NAME": "Barnacle",
+  "NAMES": [
+    "Barnacle",
+    "Barnacles"
+  ],
+  "DESCRIPTION": "A weak enemy that will give you cards when killed. Allowing it to survive will give you more cards for every turn it was alive."
+},{
+  "PROPER_NAME": "Enrichment",
+  "NAMES": [
+    "Enrichment"
+  ],
+  "DESCRIPTION": "Draw cards when this enemy is killed."
+}
+]

@@ -1,0 +1,99 @@
+{
+  "${modID}:EnrichmentPower": {
+    "NAME": "Enrichment",
+    "DESCRIPTIONS": [
+      "Draw #b%d cards when this enemy is killed.",
+      "Draw #b%d card when this enemy is killed."
+    ]
+  },
+  "${modID}:DeepestDepthsPower": {
+    "NAME": "Deepest Depths",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #y%s to your hand with #yBallast [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:LeadBootsPower": {
+    "NAME": "Submerge Cards",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #ySubmerge #b%d [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:DrowningPower": {
+    "NAME": "Drowning",
+    "DESCRIPTIONS": [
+      "Trigger your #ySunken effects #b%d additional times.",
+      "Trigger your #ySunken effects #b%d additional time."
+    ]
+  },
+  "${modID}:HardeningPower": {
+    "NAME": "Hardening",
+    "DESCRIPTIONS": [
+      "Whenever an enemy dies, gain #b%d #yStrength [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:NautilusPower": {
+    "NAME": "Energy On Kill",
+    "DESCRIPTIONS": [
+      "Whenever a #yBarnacle dies, gain"
+    ]
+  },
+  "${modID}:ShipHullPower": {
+    "NAME": "Kelp Wall",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked, summon #b%d #yBarnacles [REMOVE_SPACE].",
+      "Whenever you are attacked, summon #b%d #yBarnacle [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:TenebrisPower": {
+    "NAME": "Tenebris",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, #ySubmerge #b%d [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:NkuhanaPower": {
+    "NAME": "N'kuhana's Retort",
+    "DESCRIPTIONS": [
+      "If your draw pile is empty at the end of your turn, take an extra turn."
+    ]
+  },
+  "${modID}:BeckonPower": {
+    "NAME": "Beckoned",
+    "DESCRIPTIONS": [
+      "Cards gain #yBallast when played."
+    ]
+  },
+  "${modID}:MariculturePower": {
+    "NAME": "Mariculture",
+    "DESCRIPTIONS": [
+      "Whenever an enemy dies, deal #b%d damage to ALL enemies."
+    ]
+  },
+  "${modID}:NemoPower": {
+    "NAME": "Nemo's Map",
+    "DESCRIPTIONS": [
+      "Gain #b%d Block for every enemy in combat."
+    ]
+  },
+  "${modID}:LetVandPower": {
+    "NAME": "Let-Vand Zone",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b%d #y%s to your hand with #yBallast [REMOVE_SPACE].",
+      "At the start of your turn, add #b%d #y%s+ to your hand with #yBallast [REMOVE_SPACE].",
+      "Rotten Coral",
+      "Rotten Corals"
+    ]
+  },
+  "${modID}:VoyagerPower": {
+    "NAME": "Voyager Form",
+    "DESCRIPTIONS": [
+      "Play the first #b%d cards #ySubmerged each turn."
+    ]
+  },
+  "${modID}:WateryGravesPower": {
+    "NAME": "Watery Graves",
+    "DESCRIPTIONS": [
+      "At the end of your turn, add #b%d random cards with #ySunken from your discard pile to your hand.",
+      "At the end of your turn, add #b%d random card with #ySunken from your discard pile to your hand."
+    ]
+  }
+}

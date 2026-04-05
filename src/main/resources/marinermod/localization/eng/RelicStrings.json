@@ -1,0 +1,58 @@
+{
+  "${modID}:EncrustedSpyglass": {
+    "NAME": "Encrusted Spyglass",
+    "FLAVOR": "The shine has been worn away from centuries of sitting at the bottom of the sea.",
+    "DESCRIPTIONS": [
+      "At the start of combat, summon 1 #yBarnacle."
+    ]
+  },
+  "${modID}:EnchantedSpyglass": {
+    "NAME": "Enchanted Spyglass",
+    "FLAVOR": "The shimmering light shoots out wisps as it dances along the metal.",
+    "DESCRIPTIONS": [
+      "#yBarnacles are summoned with #b1 additional #yEnrichment [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:BleedingCoral": {
+    "NAME": "Bleeding Coral",
+    "FLAVOR": "Blood pours out of every crevice, pooling at your feet slowly.",
+    "DESCRIPTIONS": [
+      "At the start of combat, summon 1 #yBarnacle."
+    ]
+  },
+  "${modID}:SinkingShip": {
+    "NAME": "Sinking Ship",
+    "FLAVOR": "...and you are going down with it.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #ySubmerge #b3 [REMOVE_SPACE], then increase this by #b1 for the rest of combat."
+    ]
+  },
+  "${modID}:SingingGlass": {
+    "NAME": "Singing Glass",
+    "FLAVOR": "When you press the beads together, they produce a wonderful hum.",
+    "DESCRIPTIONS": [
+      "Add #b2 #yGlass #yBeads to your deck."
+    ]
+  },
+  "${modID}:TitaniumAnchor": {
+    "NAME": "Titanium Anchor",
+    "FLAVOR": "Lighter and sharper than your rusty weapon.",
+    "DESCRIPTIONS": [
+      "Your cards can be #ySunken to deal #b2 damage to ALL enemies."
+    ]
+  },
+  "${modID}:BottleOfRum": {
+    "NAME": "Bottle of Rum",
+    "FLAVOR": "\"Utterly rancid. How could anyone drink this?\" - Ranwid",
+    "DESCRIPTIONS": [
+      "The first time you #ySubmerge each combat, #ySubmerge #b3 [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:CorrodedSextant": {
+    "NAME": "Corroded Sextant",
+    "FLAVOR": "A navigation tool used by sailors before modern technology. This one has seen better days.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy dies, gain #b8 #yBlock [REMOVE_SPACE]."
+    ]
+  }
+}

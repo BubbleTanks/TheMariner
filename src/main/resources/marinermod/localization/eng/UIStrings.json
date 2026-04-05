@@ -1,0 +1,32 @@
+{
+  "${modID}:DredgeAction": {
+    "TEXT": [
+      "Choose a card to put into your hand."
+    ]
+  },
+  "${modID}:BallastMod": {
+    "TEXT": [
+      " NL ${modID}:Ballast."
+    ]
+  },
+  "${modID}:TrawlMod": {
+    "TEXT": [
+      " NL ${modID}:Trawl."
+    ]
+  },
+    "${modID}:BermudaMod": {
+      "TEXT": [
+        " NL If ${modID}:Sunken, ${modID}:Submerge %d. NL ${modID}:Abyssal - ${modID}:Submerge %d."
+      ]
+    },
+  "${modID}:DiveAction": {
+    "TEXT": [
+      "Inspect your draw pile."
+    ]
+  },
+  "${modID}:AnchorMod": {
+    "TEXT": [
+      " NL If ${modID}:Sunken, deal 2 damage to ALL enemies."
+    ]
+  }
+  }

@@ -1,0 +1,8 @@
+{
+  "${modID}:Barnacle": {
+    "MOVES": [
+      "Enrichment"
+    ],
+    "NAME": "Barnacle"
+  }
+}

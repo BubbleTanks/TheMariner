@@ -1,0 +1,20 @@
+{
+  "${modID}:Brinewater": {
+    "NAME": "Brinewater",
+    "DESCRIPTIONS": [
+      "Summon #b%d #yBarnacle [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:BottleOfSand": {
+    "NAME": "Bottled Sand",
+    "DESCRIPTIONS": [
+      "#ySubmerge #b%d [REMOVE_SPACE]."
+    ]
+  },
+  "${modID}:PrimordialWine": {
+    "NAME": "Primordial Wine",
+    "DESCRIPTIONS": [
+      "Shuffle ALL cards into your draw pile. Draw #b%d [REMOVE_SPACE]."
+    ]
+  }
+}
